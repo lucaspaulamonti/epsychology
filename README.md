@@ -1,7 +1,7 @@
 # epsychology
 
 <p>
-This course completion work focuses on the development and implementation of an electronic psychological record, called ePsi, intended for the Psychology and Nutrition School Clinic in the city of Araçatuba, São Paulo. The project is aligned with the Health and Wellbeing Sustainable Development Goal (SDG), aiming to provide a safe and efficient electronic system for storing and managing psychological records.
+This course completion work focuses on the development and implementation of an electronic psychological record, called epsychology (epsy), intended for the Psychology and Nutrition School Clinic in the city of Araçatuba, São Paulo. The project is aligned with the Health and Wellbeing Sustainable Development Goal (SDG), aiming to provide a safe and efficient electronic system for storing and managing psychological records.
 </p>
 
 ## Objectives:
