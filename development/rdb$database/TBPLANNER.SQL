@@ -1,0 +1,9 @@
+/*
+
+*/
+
+CREATE TABLE TBPLANNER (
+	ID_ SERIAL NOT NULL PRIMARY KEY,
+    
+
+)
