@@ -23,6 +23,18 @@ rdbZodiac = str('AQUARIO')
 rdbEthnicity = str('BRANCA')
 rdbOccupation = str('DESEMPREGADO')
 
+rdbAddress = str('JOSE RICO BELDA')
+rdbNumber = str('100')
+rdbDistrict = str('PLANALTO')
+rdbComplement = str('CASA')
+rdbCep = str('16072-470')
+rdbCity = str('SAO PAULO')
+
+rdbDdd = str('18')
+rdbFone = str('9 9746-1212')
+rdbMail = str('rosaluciana@example.com')
+rdbObservation = str('')
+
 #Variables:
 iRow = 0
 iColumn = 0 
@@ -30,7 +42,7 @@ iColumn = 0
 #From interface:
 interface = tkinter.Tk()
 interface.title('Cadastro de Cliente')
-interface.geometry('800x800')
+interface.geometry('800x900')
 
 lblId_ = tkinter.Label(text = '#' + str(rdbId_))
 lblId_.grid(row = iRow, column = iColumn)
@@ -71,9 +83,11 @@ lblBirth = tkinter.Label(text = 'Nascimento:')
 iRow += 1
 iColumn -= 1
 lblBirth.grid(row = iRow, column = iColumn)
-
 etyBirth = tkinter.Entry()
-etyBirth.insert(0, rdbBirth)
+
+birth = str(rdbBirth)[:] + '/' + str(rdbBirth)[2:4] + '/'+ str(rdbBirth)[2:5]
+
+etyBirth.insert(0, birth)
 iColumn += 1
 etyBirth.grid(row = iRow, column = iColumn)
 
@@ -84,6 +98,11 @@ if etyBirth != '':
     lblAge = tkinter.Label(text = 'Idade: ' + str(age))
     lblAge.grid(row = iRow, column = iColumn)
 
+#
+lblDiv = tkinter.Label(text = '')
+iRow += 1
+lblDiv.grid(row = iRow, column = iColumn)
+#
 
 lblComprovSitCad = tkinter.Label(text = 'CPF:')
 iRow += 1
@@ -102,6 +121,12 @@ etyRegistroGeral = tkinter.Entry()
 etyRegistroGeral.insert(0, rdbRegistroGeral)
 iColumn += 1
 etyRegistroGeral.grid(row = iRow, column = iColumn)
+
+#
+lblDiv = tkinter.Label(text = '')
+iRow += 1
+lblDiv.grid(row = iRow, column = iColumn)
+#
 
 lblBiologicalSex = tkinter.Label(text = 'Sexo Biológico:')
 iRow += 1
@@ -138,6 +163,12 @@ etyGenderIdentity = tkinter.Entry()
 etyGenderIdentity.insert(0, rdbGenderIdentity)
 iColumn += 1
 etyGenderIdentity.grid(row = iRow, column = iColumn)
+
+#
+lblDiv = tkinter.Label(text = '')
+iRow += 1
+lblDiv.grid(row = iRow, column = iColumn)
+#
 
 lblMarital = tkinter.Label(text = 'Estado Civil:')
 iRow += 1
@@ -192,5 +223,113 @@ etyOccupation = tkinter.Entry()
 etyOccupation.insert(0, rdbOccupation)
 iColumn += 1
 etyOccupation.grid(row = iRow, column = iColumn)
+
+#
+lblDiv = tkinter.Label(text = '')
+iRow += 1
+lblDiv.grid(row = iRow, column = iColumn)
+#
+
+lblAddress = tkinter.Label(text = 'Endereço:')
+iRow += 1
+iColumn -= 1
+lblAddress.grid(row = iRow, column = iColumn)
+etyAddress = tkinter.Entry()
+etyAddress.insert(0, rdbAddress)
+iColumn += 1
+etyAddress.grid(row = iRow, column = iColumn)
+
+lblNumber = tkinter.Label(text = 'Número:')
+iRow += 1
+iColumn -= 1
+lblNumber.grid(row = iRow, column = iColumn)
+etyNumber = tkinter.Entry()
+etyNumber.insert(0, rdbNumber)
+iColumn += 1
+etyNumber.grid(row = iRow, column = iColumn)
+
+lblDistrict = tkinter.Label(text = 'Bairro:')
+iRow += 1
+iColumn -= 1
+lblDistrict.grid(row = iRow, column = iColumn)
+etyDistrict = tkinter.Entry()
+etyDistrict.insert(0, rdbDistrict)
+iColumn += 1
+etyDistrict.grid(row = iRow, column = iColumn)
+
+lblComplement = tkinter.Label(text = 'Complemento:')
+iRow += 1
+iColumn -= 1
+lblComplement.grid(row = iRow, column = iColumn)
+etyComplement = tkinter.Entry()
+etyComplement.insert(0, rdbComplement)
+iColumn += 1
+etyComplement.grid(row = iRow, column = iColumn)
+
+lblCep = tkinter.Label(text = 'CEP:')
+iRow += 1
+iColumn -= 1
+lblCep.grid(row = iRow, column = iColumn)
+etyCep = tkinter.Entry()
+etyCep.insert(0, rdbCep)
+iColumn += 1
+etyCep.grid(row = iRow, column = iColumn)
+
+lblCity = tkinter.Label(text = 'Cidade:')
+iRow += 1
+iColumn -= 1
+lblCity.grid(row = iRow, column = iColumn)
+etyCity = tkinter.Entry()
+etyCity.insert(0, rdbCity)
+iColumn += 1
+etyCity.grid(row = iRow, column = iColumn)
+
+#
+lblDiv = tkinter.Label(text = '')
+iRow += 1
+lblDiv.grid(row = iRow, column = iColumn)
+#
+
+lblDdd = tkinter.Label(text = 'DDD')
+iRow += 1
+iColumn -= 1
+lblDdd.grid(row = iRow, column = iColumn)
+etyDdd = tkinter.Entry()
+etyDdd.insert(0, rdbDdd)
+iColumn += 1
+etyDdd.grid(row = iRow, column = iColumn)
+
+lblFone = tkinter.Label(text = 'Fone:')
+iRow += 1
+iColumn -= 1
+lblFone.grid(row = iRow, column = iColumn)
+etyFone = tkinter.Entry()
+etyFone.insert(0, rdbFone)
+iColumn += 1
+etyFone.grid(row = iRow, column = iColumn)
+
+lblMail = tkinter.Label(text = 'E-Mail:')
+iRow += 1
+iColumn -= 1
+lblMail.grid(row = iRow, column = iColumn)
+etyMail = tkinter.Entry()
+etyMail.insert(0, rdbMail)
+iColumn += 1
+etyMail.grid(row = iRow, column = iColumn)
+
+#
+lblDiv = tkinter.Label(text = '')
+iRow += 1
+lblDiv.grid(row = iRow, column = iColumn)
+#
+
+lblObservation = tkinter.Label(text = 'Observação:')
+iRow += 1
+iColumn -= 1
+lblObservation.grid(row = iRow, column = iColumn)
+etyObservation = tkinter.Entry()
+etyObservation.insert(0, rdbObservation)
+iColumn += 1
+etyObservation.grid(row = iRow, column = iColumn)
 
 interface.mainloop()
