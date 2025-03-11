@@ -1,0 +1,27 @@
+Criar a máquina virtual:
+
+Oracle VirtualBox 7.1.6 Platform Packages for Windows Hosts.exe
+Oracle VirtualBox 7.1.6 Extension Pack.vbox-extpack
+Ubuntu Server 24.04.2 LTS.iso
+
+Instalar os componentes no Ubuntu server:
+
+sudo apt install nano
+sudo apt install openssh-server 
+sudo apt install net-tools
+sudo apt install postgresql
+sudo apt install gnupg
+sudo apt install curl
+sudo apt-get install -y mongodb-org
+
+Instalar os gerenciadores:
+
+PostgreSQL PgAdmin 4.9.1 x64.exe
+MongoDB Compass 1.45.4 x64.exe
+
+Importar as strings de conexões:
+
+Connection String for PostgreSQL 16 on Ubuntu Server.json
+Connection String for MongoDB 8 on Ubuntu Server.json
+
+
