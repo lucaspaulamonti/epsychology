@@ -2,6 +2,8 @@
 
 MongoDB is a free, open-source, cross-platform document-oriented database software written in the C++ language. Classified as a NoSQL database program, MongoDB uses JSON-like documents with schemas.
 
+You will need to have the Curl and GNU packages installed.
+
 Adds the GPG key of the official MongoDB repository:
 ```
 curl -fsSL https://www.mongodb.org/static/pgp/server-8.0.asc | \
