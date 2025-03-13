@@ -1,0 +1,26 @@
+{
+  "type": "Compass Connections",
+  "version": {
+    "$numberInt": "1"
+  },
+  "connections": [
+    {
+      "id": "6a23c25f-637a-4a09-b0b6-e1c502fd98ac",
+      "lastUsed": {
+        "$date": {
+          "$numberLong": "1741628281061"
+        }
+      },
+      "favorite": {
+        "name": "MongoDB 8 on Ubuntu Server"
+      },
+      "savedConnectionType": "favorite",
+      "connectionOptions": {
+        "connectionString": "mongodb://192.168.1.51:27017/?tls=false",
+        "oidc": {
+          "serializedState": "eyJvaWRjUGx1Z2luU3RhdGVWZXJzaW9uIjowLCJzdGF0ZSI6W119"
+        }
+      }
+    }
+  ]
+}
