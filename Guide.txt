@@ -25,3 +25,76 @@ Connection String for PostgreSQL 16 on Ubuntu Server.json
 Connection String for MongoDB 8 on Ubuntu Server.json
 
 
+# Atualiza os pacotes instalados no sistema.
+sudo apt upgrade  
+
+# Atualiza a lista de pacotes disponíveis.
+sudo apt update  
+
+# Instala o editor de texto Nano.
+sudo apt install nano  
+
+# Instala o servidor OpenSSH para acesso remoto via SSH.
+sudo apt install openssh-server  
+
+# Abre o arquivo de configuração do SSH para edição.
+sudo nano /etc/ssh/sshd_config  
+
+# Define a porta que o servidor SSH irá escutar (padrão: 22).
+port 22  
+
+# Reinicia o serviço SSH para aplicar as alterações.
+sudo systemctl restart ssh.service  
+
+# Instala o PostgreSQL, um sistema de gerenciamento de banco de dados.
+sudo apt install postgresql  
+
+# Abre o arquivo de configuração do PostgreSQL para edição.
+sudo nano /etc/postgresql/16/main/postgresql.conf  
+
+# Permite conexões de qualquer IP no PostgreSQL.
+listen_addresses = '*'  
+
+# Instala o net-tools para comandos como ifconfig e netstat.
+sudo apt install net-tools  
+
+# Abre o arquivo de configuração de autenticação do PostgreSQL.
+sudo nano /etc/postgresql/16/main/pg_hba.conf  
+
+# Permite acesso irrestrito ao PostgreSQL sem necessidade de senha.
+host	all	all	all	trust  
+
+# Reinicia o serviço do PostgreSQL para aplicar as alterações.
+sudo systemctl restart postgresql.service  
+
+# Instala o GnuPG, usado para verificação de assinaturas criptográficas.
+sudo apt install gnupg  
+
+# Instala o curl, uma ferramenta para transferências de dados.
+sudo apt install curl  
+
+# Adiciona a chave GPG do repositório oficial do MongoDB.
+curl -fsSL https://www.mongodb.org/static/pgp/server-8.0.asc | \
+   sudo gpg -o /usr/share/keyrings/mongodb-server-8.0.gpg \
+   --dearmor  
+
+# Adiciona o repositório do MongoDB à lista de fontes do APT.
+echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-8.0.gpg ] https://repo.mongodb.org/apt/ubuntu noble/mongodb-org/8.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-8.0.list  
+
+# Atualiza a lista de pacotes após adicionar o repositório do MongoDB.
+sudo apt-get update  
+
+# Instala o MongoDB.
+sudo apt-get install -y mongodb-org  
+
+# Configura o serviço MongoDB para iniciar automaticamente com o sistema.
+sudo systemctl enable mongod  
+
+# Abre o arquivo de configuração do MongoDB para edição.
+sudo nano /etc/mongod.conf  
+
+# Permite conexões externas no MongoDB, alterando o bindIp.
+bindIp: 0.0.0.0  
+
+# Reinicia o serviço do MongoDB para aplicar as configurações.
+sudo systemctl restart mongod.service
