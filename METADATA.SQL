@@ -1,22 +1,18 @@
 SELECT
-    NAME,
-    IIF(NAME LIKE 'PK_%', 'PRIMARY KEY',
-        IIF(NAME LIKE 'FK_%', 'FOREIGN KEY',
-            IIF(NAME LIKE 'NN_%', 'NOT NULL',
-                IIF(NAME LIKE 'UQ_%', 'UNIQUE',
-                    IIF(NAME LIKE 'BI_%', 'BEFORE INSERT',
-                        IIF(NAME LIKE 'AI_%', 'AFTER INSERT',
-                            IIF(NAME LIKE 'SQ_%', 'GENERATOR',
-                                IIF(NAME LIKE '%.%', 'COLUMN',
-                                'TABLE')
-                            )
-                        )
-                    )
-                )
-            )
-        )
-    ) TYPE,
+    SCHEMA,
+    CASE 
+        WHEN SCHEMA LIKE 'PK_%' THEN 'PRIMARY KEY'
+        WHEN SCHEMA LIKE 'FK_%' THEN 'FOREIGN KEY'
+        WHEN SCHEMA LIKE 'NN_%' THEN 'NOT NULL'
+        WHEN SCHEMA LIKE 'UQ_%' THEN 'UNIQUE'
+        WHEN (SCHEMA LIKE 'BI_%') AND (SCHEMA NOT LIKE '%()') THEN 'BI TRIGGER'
+        WHEN (SCHEMA LIKE 'AI_%') AND (SCHEMA NOT LIKE '%()') THEN 'AI TRIGGER'
+        WHEN SCHEMA LIKE 'SQ_%' THEN 'GENERATOR'
+        WHEN SCHEMA LIKE '%.%' THEN 'COLUMN'
+        WHEN (SCHEMA LIKE 'BI_%') AND (SCHEMA LIKE '%()') THEN 'BI FUNCTION'
+        WHEN (SCHEMA LIKE 'AI_%') AND (SCHEMA LIKE '%()') THEN 'AI FUNCTION'
+        ELSE 'TABLE'
+    END AS TYPE,
     COMMENT
 FROM METADATA
-ORDER BY METADATA.ID
-;
+ORDER BY METADATA.ID;
