@@ -1,4 +1,5 @@
 ## Patch: 1 Diversity & Inclusion 
+![image](https://github.com/user-attachments/assets/d656d4c7-85ef-41e9-ab25-8d396c77fcbf)
 
 ### Biological Sex (BIOLOGICALSEX)
 > Added: BIOLOGICALSEX, PK_BIOLOGICALSEX__ID, UQ_BIOLOGICALSEX__DESCRIPTION, NN_BIOLOGICALSEX__DESCRIPTION, SQ_BIOLOGICALSEX__ID, BI_BIOLOGICALSEX__ID(), BI_BIOLOGICALSEX__ID. [See more...](/Introduction/Schemas/1%20Biological%20Sex%20(BIOLOGICALSEX).SQL)
