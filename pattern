@@ -1,0 +1,9 @@
+Table:            `FIRSTNAME` + `LASTNAME`:                                                               REGISTRATIONSTATUS
+Primary Key:      PK_ + `TABLENAME` + __ID:                                                               PK_REGISTRATIONSTATUS__ID
+Unique:           UQ_ + `TABLENAME` + __ + `FIELDNAME`:                                                   UQ_REGISTRATIONSTATUS__DESCRIPTION
+Not Null:         NN_ + `TABLENAME` + __ + `FIELDNAME`:                                                   NN_REGISTRATIONSTATUS__DESCRIPTION
+Foreign Key:      FK_ + `FIRSTTABLE` + _ + `LASTTABLE` + __ + `LASTTABLEFIELD`:                           FK_REGISTRATIONSTATUS_CUSTOMERREGISTRATION__ID
+Foreign Kwy 2:    FK_ + `FIRSTTABLE` + _ + `LASTTABLE` + __ + `LASTTABLEFIELD + __ + `FIELDVARIANT`:      FK_REGISTRATIONSTATUS_CUSTOMERREGISTRATION__ID__MOTHER
+Sequence:         SQ_ + `TABLENAME` + __ID:                                                               SQ_REGISTRATIONSTATUS__ID
+Function:         BI_ OR AI_ + `TABLENAME` + __ID():                                                      BI_REGISTRATIONSTATUS__ID()
+Trigger:          BI_ OR AI_ + `TABLENAME` + __ID:                                                        BI_REGISTRATIONSTATUS__ID
