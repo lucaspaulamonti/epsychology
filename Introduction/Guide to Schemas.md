@@ -1,3 +1,4 @@
+# Guide to Schemas
 ## Patch: 1 Diversity & Inclusion 
 ![image](https://github.com/user-attachments/assets/d656d4c7-85ef-41e9-ab25-8d396c77fcbf)
 
