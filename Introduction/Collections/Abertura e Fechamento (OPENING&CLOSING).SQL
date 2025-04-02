@@ -1,0 +1,1 @@
+db.createCollection("OPENING&CLOSING")
