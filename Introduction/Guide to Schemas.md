@@ -100,22 +100,82 @@
 ![image](https://github.com/user-attachments/assets/eadb3c5c-2f61-4b1c-8b38-8322b8c66aba)
 
 ### Academic Degree (ACADEMICDEGREE)
-> Added: ACADEMICDEGREE, PK_ACADEMICDEGREE__ID, UQ_ACADEMICDEGREE__DESCRIPTION, NN_ACADEMICDEGREE__DESCRIPTION, SQ_ACADEMICDEGREE__ID, BI_ACADEMICDEGREE__ID(), BI_ACADEMICDEGREE__ID. [See more...](/Introduction/Schemas/3%20Academic%20Degree%20(ACADEMICDEGREE).SQL)
+- Added table(s): ACADEMICDEGREE.
+- Added field(s): ACADEMICDEGREE.ID, ACADEMICDEGREE.DESCRIPTION.
+- Added primary key(s): PK_ACADEMICDEGREE__ID.
+- Added foreign key(s): ~
+- Added unique: UQ_ACADEMICDEGREE__DESCRIPTION.
+- Added not null: NN_ACADEMICDEGREE__DESCRIPTION.
+- Added sequence: SQ_ACADEMICDEGREE__ID.
+- Added function: BI_ACADEMICDEGREE__ID().
+- Added trigger: BI_ACADEMICDEGREE__ID.
+
+[See more...](/Introduction/Schemas/3%20Academic%20Degree%20(ACADEMICDEGREE).SQL)
 
 ### Ethnic Group (ETHNICGROUP)
-> Added: ETHNICGROUP, PK_ETHNICGROUP__ID, UQ_ETHNICGROUP__DESCRIPTION, NN_ETHNICGROUP__DESCRIPTION, SQ_ETHNICGROUP__ID, BI_ETHNICGROUP__ID(), BI_ETHNICGROUP__ID. [See more...](/Introduction/Schemas/3%20Ethnic%20Group%20(ETHNICGROUP).SQL)
+- Added table(s): ETHNICGROUP.
+- Added field(s): ETHNICGROUP.ID, ETHNICGROUP.DESCRIPTION.
+- Added primary key(s): PK_ETHNICGROUP__ID.
+- Added foreign key(s): ~
+- Added unique: UQ_ETHNICGROUP__DESCRIPTION.
+- Added not null: NN_ETHNICGROUP__DESCRIPTION.
+- Added sequence: SQ_ETHNICGROUP__ID.
+- Added function: BI_ETHNICGROUP__ID().
+- Added trigger: BI_ETHNICGROUP__ID.
+
+[See more...](/Introduction/Schemas/3%20Ethnic%20Group%20(ETHNICGROUP).SQL)
 
 ### Job Occupation (JOBOCCUPATION)
-> Added: JOBOCCUPATION, PK_JOBOCCUPATION__ID, UQ_JOBOCCUPATION__DESCRIPTION, NN_JOBOCCUPATION__DESCRIPTION, SQ_JOBOCCUPATION__ID, BI_JOBOCCUPATION__ID(), BI_JOBOCCUPATION__ID. [See more...](/Introduction/Schemas/3%20Job%20Occupation%20(JOBOCCUPATION).SQL)
+- Added table(s): JOBOCCUPATION.
+- Added field(s): JOBOCCUPATION.ID, JOBOCCUPATION.DESCRIPTION.
+- Added primary key(s): PK_JOBOCCUPATION__ID.
+- Added foreign key(s): ~
+- Added unique: UQ_JOBOCCUPATION__DESCRIPTION.
+- Added not null: NN_JOBOCCUPATION__DESCRIPTION.
+- Added sequence: SQ_JOBOCCUPATION__ID.
+- Added function: BI_JOBOCCUPATION__ID().
+- Added trigger: BI_JOBOCCUPATION__ID.
+
+[See more...](/Introduction/Schemas/3%20Job%20Occupation%20(JOBOCCUPATION).SQL)
 
 ### Marital Status (MARITALSTATUS)
-> Added: MARITALSTATUS, PK_MARITALSTATUS__ID, UQ_MARITALSTATUS__DESCRIPTION, NN_MARITALSTATUS__DESCRIPTION, SQ_MARITALSTATUS__ID, BI_MARITALSTATUS__ID(), BI_MARITALSTATUS__ID. [See more...](/Introduction/Schemas/3%20Marital%20Status%20(MARITALSTATUS).SQL)
+- Added table(s): MARITALSTATUS.
+- Added field(s): MARITALSTATUS.ID, MARITALSTATUS.DESCRIPTION.
+- Added primary key(s): PK_MARITALSTATUS__ID.
+- Added foreign key(s): ~
+- Added unique: UQ_MARITALSTATUS__DESCRIPTION.
+- Added not null: NN_MARITALSTATUS__DESCRIPTION.
+- Added sequence: SQ_MARITALSTATUS__ID.
+- Added function: BI_MARITALSTATUS__ID().
+- Added trigger: BI_MARITALSTATUS__ID.
+
+[See more...](/Introduction/Schemas/3%20Marital%20Status%20(MARITALSTATUS).SQL)
 
 ### Religious Affiliation (RELIGIOUSAFFILIATION)
-> Added: RELIGIOUSAFFILIATION, PK_RELIGIOUSAFFILIATION__ID, UQ_RELIGIOUSAFFILIATION__DESCRIPTION, NN_RELIGIOUSAFFILIATION__DESCRIPTION, SQ_RELIGIOUSAFFILIATION__ID, BI_RELIGIOUSAFFILIATION__ID(), BI_RELIGIOUSAFFILIATION__ID. [See more...](/Introduction/Schemas/3%20Religious%20Affiliation%20(RELIGIOUSAFFILIATION).SQL)
+- Added table(s): RELIGIOUSAFFILIATION.
+- Added field(s): RELIGIOUSAFFILIATION.ID, RELIGIOUSAFFILIATION.DESCRIPTION.
+- Added primary key(s): PK_RELIGIOUSAFFILIATION__ID.
+- Added foreign key(s): ~
+- Added unique: UQ_RELIGIOUSAFFILIATION__DESCRIPTION.
+- Added not null: NN_RELIGIOUSAFFILIATION__DESCRIPTION.
+- Added sequence: SQ_RELIGIOUSAFFILIATION__ID.
+- Added function: BI_RELIGIOUSAFFILIATION__ID().
+- Added trigger: BI_RELIGIOUSAFFILIATION__ID.
+ 
+[See more...](/Introduction/Schemas/3%20Religious%20Affiliation%20(RELIGIOUSAFFILIATION).SQL)
 
 ### Monthly Income (MONTHLYINCOME)
-> Added: MONTHLYINCOME, PK_MONTHLYINCOME__ID, UQ_MONTHLYINCOME__DESCRIPTION, NN_MONTHLYINCOME__DESCRIPTION, SQ_MONTHLYINCOME__ID, BI_MONTHLYINCOME__ID(), BI_MONTHLYINCOME__ID. [See more...](/Introduction/Schemas/3%20Monthly%20Income%20(MONTHLYINCOME).SQL)
+- Added table(s): MONTHLYINCOME.
+- Added field(s): MONTHLYINCOME.ID, MONTHLYINCOME.DESCRIPTION.
+- Added primary key(s): PK_MONTHLYINCOME__ID.
+- Added foreign key(s): ~
+- Added unique: UQ_MONTHLYINCOME__DESCRIPTION.
+- Added not null: NN_MONTHLYINCOME__DESCRIPTION.
+- Added sequence: SQ_MONTHLYINCOME__ID.
+- Added function: BI_MONTHLYINCOME__ID().
+- Added trigger: BI_MONTHLYINCOME__ID.
+ 
+[See more...](/Introduction/Schemas/3%20Monthly%20Income%20(MONTHLYINCOME).SQL)
 
 ## Patch: 4 Medical Information
 ![image](https://github.com/user-attachments/assets/f01f141c-615c-440e-ac32-61d6e354ff4b)
