@@ -7,21 +7,52 @@
 - Added field(s): BIOLOGICALSEX.ID, BIOLOGICALSEX.DESCRIPTION.
 - Added primary key(s): PK_BIOLOGICALSEX__ID.
 - Added foreign key(s): ~
-- Added not null: NN_BIOLOGICALSEX__DESCRIPTION.
 - Added unique: UQ_BIOLOGICALSEX__DESCRIPTION.
+- Added not null: NN_BIOLOGICALSEX__DESCRIPTION.
 - Added sequence: SQ_BIOLOGICALSEX__ID.
 - Added function: BI_BIOLOGICALSEX__ID().
 - Added trigger: BI_BIOLOGICALSEX__ID.
+  
 [See more...](/Introduction/Schemas/1%20Biological%20Sex%20(BIOLOGICALSEX).SQL)
 
 ### Sexual Orientation (SEXUALORIENTATION)
-> Added: SEXUALORIENTATION, PK_SEXUALORIENTATION__ID, UQ_SEXUALORIENTATION__DESCRIPTION, NN_SEXUALORIENTATION__DESCRIPTION, SQ_SEXUALORIENTATION__ID, BI_SEXUALORIENTATION__ID(), BI_SEXUALORIENTATION__ID. [See more...](/Introduction/Schemas/1%20BSexual%20Orientation%20(SEXUALORIENTATION).SQL)
+- Added table(s): SEXUALORIENTATION.
+- Added field(s): SEXUALORIENTATION.ID, SEXUALORIENTATION.DESCRIPTION.
+- Added primary key(s): PK_SEXUALORIENTATION__ID.
+- Added foreign key(s): ~
+- Added unique: UQ_SEXUALORIENTATION__DESCRIPTION.
+- Added not null: NN_SEXUALORIENTATION__DESCRIPTION.
+- Added sequence: SQ_SEXUALORIENTATION__ID.
+- Added function: BI_SEXUALORIENTATION__ID().
+- Added trigger: BI_SEXUALORIENTATION__ID.
+
+[See more...](/Introduction/Schemas/1%20BSexual%20Orientation%20(SEXUALORIENTATION).SQL)
 
 ### Gender Identity (GENDERIDENTITY)
-> Added: GENDERIDENTITY, PK_GENDERIDENTITY__ID, UQ_GENDERIDENTITY__DESCRIPTION, NN_GENDERIDENTITY__DESCRIPTION, SQ_GENDERIDENTITY__ID, BI_GENDERIDENTITY__ID(), BI_GENDERIDENTITY__ID. [See more...](/Introduction/Schemas/1%20Gender%20Identity%20(GENDERIDENTITY).SQL)
+- Added table(s): GENDERIDENTITY.
+- Added field(s): GENDERIDENTITY.ID, GENDERIDENTITY.DESCRIPTION.
+- Added primary key(s): PK_GENDERIDENTITY__ID.
+- Added foreign key(s): ~
+- Added unique: UQ_GENDERIDENTITY__DESCRIPTION.
+- Added not null: NN_GENDERIDENTITY__DESCRIPTION.
+- Added sequence: SQ_GENDERIDENTITY__ID.
+- Added function: BI_GENDERIDENTITY__ID().
+- Added trigger: BI_GENDERIDENTITY__ID.
+
+[See more...](/Introduction/Schemas/1%20Gender%20Identity%20(GENDERIDENTITY).SQL)
 
 ### Gender Expression (GENDEREXPRESSION)
-> Added: GENDEREXPRESSION, PK_GENDEREXPRESSION__ID, UQ_GENDEREXPRESSION__DESCRIPTION, NN_GENDEREXPRESSION__DESCRIPTION, SQ_GENDEREXPRESSION__ID, BI_GENDEREXPRESSION__ID(), BI_GENDEREXPRESSION__ID. [See more...](/Introduction/Schemas/1%20Gender%20Expression%20(GENDEREXPRESSION).SQL)
+- Added table(s): GENDEREXPRESSION.
+- Added field(s): GENDEREXPRESSION.ID, GENDEREXPRESSION.DESCRIPTION.
+- Added primary key(s): PK_GENDEREXPRESSION__ID.
+- Added foreign key(s): ~
+- Added unique: UQ_GENDEREXPRESSION__DESCRIPTION.
+- Added not null: NN_GENDEREXPRESSION__DESCRIPTION.
+- Added sequence: SQ_GENDEREXPRESSION__ID.
+- Added function: BI_GENDEREXPRESSION__ID().
+- Added trigger: BI_GENDEREXPRESSION__ID.
+
+[See more...](/Introduction/Schemas/1%20Gender%20Expression%20(GENDEREXPRESSION).SQL)
 
 ## Patch: 2 Geolocation 
 ![image](https://github.com/user-attachments/assets/8cc2be65-be2a-4b0f-bf6e-0f4c609e673e)
