@@ -1,4 +1,4 @@
-# Why Ubuntu?
+# Why Ubuntu? (Ubuntu Server 24.04.2 LTS)
 You should consider Ubuntu Server as the operating system for your server for a number of technical, practical and even strategic reasons.
 
 ### Stability and Reliability
