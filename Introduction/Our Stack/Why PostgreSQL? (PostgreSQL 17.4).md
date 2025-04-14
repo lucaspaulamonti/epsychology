@@ -1,4 +1,4 @@
-# Why PostgreSQL?
+# Why PostgreSQL? (PostgreSQL 17.4)
 Choosing PostgreSQL as your database is an excellent decision, especially for projects that require robustness, reliability, and flexibility.
 
 ### Extremely Reliable and Stable
