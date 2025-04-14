@@ -2,16 +2,16 @@
 Choosing PostgreSQL as your database is an excellent decision, especially for projects that require robustness, reliability, and flexibility.
 
 ### Extremely Reliable and Stable
--PostgreSQL is known for its stability in critical environments.
--It has over 30 years of active development, which reflects its solidity and maturity.
+- PostgreSQL is known for its stability in critical environments.
+- It has over 30 years of active development, which reflects its solidity and maturity.
 
 ### 100% Open Source and Free
--No licensing costs, no hidden limitations.
--It has a huge and active community — frequent updates, quick fixes, and many plugins/extensions available.
+- No licensing costs, no hidden limitations.
+- It has a huge and active community — frequent updates, quick fixes, and many plugins/extensions available.
 
 ### Highly Secure
--Supports encryption, authentication with SSL certificates, GSSAPI authentication, LDAP, PAM, and more.
--Powerful access control with roles, granular permissions, and separate schemas.
+- Supports encryption, authentication with SSL certificates, GSSAPI authentication, LDAP, PAM, and more.
+- Powerful access control with roles, granular permissions, and separate schemas.
 
 ### SQL Standards Compliant
 - It strictly follows the ANSI SQL standard, more so than most relational databases.
