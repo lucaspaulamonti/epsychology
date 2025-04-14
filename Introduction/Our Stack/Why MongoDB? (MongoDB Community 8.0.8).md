@@ -25,7 +25,7 @@ Choosing MongoDB makes a lot of sense when the project requires flexibility, spe
 - Official drivers for almost all languages: Python (with pymongo), Node.js, Java, Go, etc.
 - Compatible with ORMs/ODMs such as Mongoose, MongoEngine, Beanie, among others.
 
-###Powerful Aggregations
+### Powerful Aggregations
 - The Aggregation Framework allows you to transform, filter, group and query documents in a very robust way, similar to SQL but with a functional approach.
 - Very useful for reports, dashboards and complex analyses.
 
