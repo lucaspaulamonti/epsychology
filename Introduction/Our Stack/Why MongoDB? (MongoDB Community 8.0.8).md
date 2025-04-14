@@ -1,4 +1,4 @@
-# Why MongoDB?
+# Why MongoDB? (MongoDB Community 8.0.8)
 Choosing MongoDB makes a lot of sense when the project requires flexibility, speed in development and storage of semi-structured or unstructured data.
 
 ### Flexible Data Model (Schema-less)
