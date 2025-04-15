@@ -1,0 +1,36 @@
+Customer
+	ID
+	NameSocial
+	NameBiological
+	ID_BiologicalSex (Description)
+	ID_SexualOrientation (Description)
+	ID_GenderIdentity (Description)
+	ID_GenderExpression (Description)
+	BirthDate
+	RG
+	CPF
+	ID_EthnicGroup (Description)
+	ID_JobOccupation (Description)
+	ID_AcademicDegree (Description)
+	ID_MedicalInsurance (Description)
+	ID_BloodType (Description)
+	ID_DisabilityPerson (Description)
+	ID_RegistrationStatus (Description)
+	Observation
+
+BiologicalSex
+SexualOrientation
+GenderIdentity
+GenderExpression
+
+EthnicGroup (Description)
+JobOccupation (Description)
+AcademicDegree (Description)
+MedicalInsurance (Description)
+BloodType (Description)
+DisabilityPerson (Description)
+DeseaseClassification (Description)
+RegistrationStatus (Description)
+
+ResidentialAddress
+
