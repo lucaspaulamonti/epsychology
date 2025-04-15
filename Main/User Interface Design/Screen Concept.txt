@@ -1,0 +1,84 @@
+Customer.Label()
+{
+	NameSocial.Text()
+	NameBiological.Text()
+
+	BiologicalSex.Combo(Description)
+	SexualOrientation.Combo(Description)
+	GenderIdentity.Combo(Description)
+	GenderExpression.Combo(Description)
+
+	BirthDate.Date(), 	Age.Calc()
+
+	Rg.Text(),	Cpf.Text()
+}
+{
+	EthnicGroup.Combo(Description),		MedicalInsurance.Combo(Description)
+	JobOccupation.Combo(Description),	BloodType.Combo(Description)
+	AcademicDegree.Combo(Description),	DisabilityPerson.Combo(Description)
+	
+	RegistrationStatus.Combo(Description)
+}
+{
+	Observation.Text()
+}
+
+Address.Label()
+{
+	Address.Text(),		Number.Text()
+	Neighborhood.Text(), 	Complement.Text(),	Cep.Text()
+	City.Combo(),		State.Combo(),		Country.Combo()
+}
+{
+	Ddd.Text(),	Phone.Text()	
+	Mail.Text()
+}
+{
+	DddEme.Text(), 	PhoneEme.Text(),	NameEme.Text()
+{
+	Observation.Text()
+}
+
+Family.Label()
+{
+	MotherName.Text()
+	BiologicalSex.Combo(Description), 	MotherAge.Text()
+	JobOccupation.Combo(Description),	AcademicDegree.Combo(Description)
+	Observation.Text()
+}
+{
+	FatherName.Text()
+	BiologicalSex.Combo(Description), 	FatherAge.Text()
+	JobOccupation.Combo(Description),	AcademicDegree.Combo(Description)
+	Observation.Text()
+}
+{
+	PartnerName.Text()
+	BiologicalSex.Combo(Description), 	PartnerAge.Text()
+	JobOccupation.Combo(Description),	AcademicDegree.Combo(Description)
+	Observation.Text()
+}
+{
+	BrotherName.Text()
+	BiologicalSex.Combo(Description), 	BrotherAge.Text()
+	JobOccupation.Combo(Description),	AcademicDegree.Combo(Description)
+	Observation.Text()
+}
+{
+	ChildName.Text()
+	BiologicalSex.Combo(Description), 	ChildAge.Text()
+	JobOccupation.Combo(Description),	AcademicDegree.Combo(Description)
+	Observation.Text()
+}
+
+Addiction.Label()
+{
+	Alcohol.Combo(Description),	Tobacco.Combo(Description)
+	Marihuana.Combo(Description),	Ecstasy.Combo(Description)
+	Lsd.Combo(Description),		Cocaine.Combo(Description)
+	Crack.Combo(Description),	Heroin.Combo(Description)
+	Opium.Combo(Description),	Amphetamine.Combo(Description)
+}
+{
+	Observation.Text()
+}
