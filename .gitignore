@@ -1,4 +1,52 @@
 .DS_Store
-.dproj.local
-.identcache
 **/__history/
+**.identcache
+
+# === Delphi Project Files ===
+*.~*                   # Backups temporários da IDE
+*.dcu                  # Delphi Compiled Units
+*.dcp                  # Delphi Compiled Package
+*.dsk                  # Desktop state (posição dos arquivos abertos)
+*.local                # Configurações locais do projeto
+*.identcache           # Cache de símbolos para navegação
+*.tvsconfig            # Team Version System config
+*.stat                 # Status da IDE
+*.map                  # Arquivos de mapa de debug
+*.bak                  # Backups manuais
+*.cfg                  # Configurações de build locais
+*.ddp                  # Delphi Diagram File
+
+# === Delphi Build Files ===
+*.exe                  # Executável gerado
+*.dll                  # DLLs geradas
+*.bpl                  # Delphi Package Libraries
+*.dres                 # Resource files compilados
+*.tds                  # Debug symbols
+
+# === Delphi Project Metadata ===
+*.dproj.local          # Configurações locais (máquina específica)
+*.ipj                  # Instinct Project Files (Delphi antigo)
+
+# === IDE Folders ===
+__history/             # Backups automáticos da IDE
+__recovery/            # Sessões de recuperação automática
+*.obj                  # Objetos compilados (C++ Builder)
+*.pch                  # C++ pré-compilados
+*.hpp                  # Headers gerados automaticamente
+*.lib                  # Bibliotecas linkadas
+
+# === Cross-platform and FMX Artifacts ===
+*.android/
+*.ios/
+*.osx/
+*.linux/
+
+# === Sistema Operacional ===
+.DS_Store              # macOS
+Thumbs.db              # Windows
+desktop.ini            # Windows
+
+# === Git Ignore Rules for Source ===
+# (personalize conforme necessário)
+# Source/Build/       ← Ignore pasta de builds se for gerada automaticamente
+# Output/             ← Ignore pasta de output, se usar uma
