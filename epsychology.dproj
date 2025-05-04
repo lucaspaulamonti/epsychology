@@ -123,8 +123,24 @@
         <DelphiCompile Include="$(MainSource)">
             <MainSource>MainSource</MainSource>
         </DelphiCompile>
-        <DCCReference Include="Source\Module\Attribute\Form\Delphi 12\VCL\UnitAttributeCadastre.pas">
-            <Form>Form1</Form>
+        <DCCReference Include="Source\Module\Attribute\Form\Delphi 12\VCL\UnitCadastre.pas">
+            <Form>FormCadastre</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="Source\Module\Customer\Form\Delphi 12\VCL\UnitCustomer.pas">
+            <Form>FormCustomer</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="Source\Module\User\Form\Delphi 12\VCL\UnitUser.pas">
+            <Form>FormUser</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="Source\Module\Medical\Form\Delphi 12\VCL\UnitMedical.pas">
+            <Form>FormMedical</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="Source\Module\Institutional\Form\Delphi 12\VCL\UnitInstitutional.pas">
+            <Form>FormInstitutional</Form>
             <FormType>dfm</FormType>
         </DCCReference>
         <BuildConfiguration Include="Base">
