@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<BorlandProject>
-  <Transactions>
-    <Transaction>2025/05/04 23:28:41.986,=C:\Users\lucasdepaulamonti\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2025/05/04 23:34:17.647,C:\Users\lucasdepaulamonti\Documents\GitHub\epsychology\Source\Module\Attribute\Form\Delphi 12\VCL\UnitAttributeCadastre.dfm=C:\Users\lucasdepaulamonti\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
-    <Transaction>2025/05/04 23:34:17.647,C:\Users\lucasdepaulamonti\Documents\GitHub\epsychology\Source\Module\Attribute\Form\Delphi 12\VCL\UnitAttributeCadastre.pas=C:\Users\lucasdepaulamonti\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2025/05/04 23:35:44.922,C:\Users\lucasdepaulamonti\Documents\GitHub\epsychology\epsychology.dproj=C:\Users\lucasdepaulamonti\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
-  </Transactions>
-</BorlandProject>
