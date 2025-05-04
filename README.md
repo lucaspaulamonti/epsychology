@@ -68,3 +68,45 @@ One of the main lessons learned from this project was the importance of integrat
 </br> </br> During the execution of the project, one of the biggest challenges was ensuring that the system was in full compliance with the General Data Protection Law (LGPD). This required a careful analysis of security and privacy requirements, as well as the implementation of robust measures to protect patient data. This process provided in-depth learning about data protection legislation and the importance of its practical application in information systems, especially in sensitive contexts such as healthcare.
 </br> </br> The development and fulfillment of the activity schedule were crucial aspects for the success of the project. During execution, it was necessary to deal with unforeseen events, such as adjustments to the project scope and user feedback, which required flexibility and adaptations to the initial planning. This challenge highlighted the importance of effective time and resource management, as well as the ability to adapt in systems development projects. I learned to balance the need to meet deadlines with the need to deliver a high quality product.
 </p>
+
+Source/
+└── Module/
+    ├── Attribute/
+    │   ├── Data/
+    │   │   ├── ProstgreSQL 17/
+    │   │   └── FirebirdSQL 5/
+    │   ├── Form/
+    │   │   └── Delphi 12/
+    │   │       └── VCL/
+    │   └── Util/
+    ├── Customer/
+    │   ├── Data/
+    │   │   ├── ProstgreSQL 17/
+    │   │   └── FirebirdSQL 5/
+    │   ├── Form/
+    │   │   └── Delphi 12/
+    │   │       └── VCL/
+    │   └── Util/
+    ├── Institutional/
+    │   ├── Data/
+    │   │   ├── ProstgreSQL 17/
+    │   │   └── FirebirdSQL 5/
+    │   ├── Form/
+    │   │   └── Delphi 12/
+    │   │       └── VCL/
+    │   └── Util/
+    ├── Medical/
+    │   ├── Data/
+    │   │   └── MongoDB 8/
+    │   ├── Form/
+    │   │   └── Delphi 12/
+    │   │       └── VCL/
+    │   └── Util/
+    └── User/
+        ├── Data/
+        │   ├── ProstgreSQL 17/
+        │   └── FirebirdSQL 5/
+        ├── Form/
+        │   └── Delphi 12/
+        │       └── VCL/
+        └── Util/
