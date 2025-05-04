@@ -1,6 +1,7 @@
 .DS_Store
 **/__history/
 **.identcache
+**.dproj.local
 
 # === Delphi Project Files ===
 *.~*                   # Backups temporários da IDE
