@@ -6,3 +6,5 @@ __recovery/
 Thumbs.db
 desktop.ini
 .res
+Win32/
+Win64/
