@@ -1,0 +1,2 @@
+CONNECT 'C:\Program Files\Firebird\DATABASE.FDB'
+user 'SYSDBA' password 'masterkey';
