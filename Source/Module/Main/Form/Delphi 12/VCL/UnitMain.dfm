@@ -238,6 +238,7 @@ object FormMain: TFormMain
         Margin = 0
         ParentFont = False
         Spacing = 10
+        OnClick = SpeedButtonMenuClick
       end
       object SpeedButtonSearch: TSpeedButton
         Left = 420
@@ -328,15 +329,415 @@ object FormMain: TFormMain
       Left = 0
       Top = 81
       Width = 185
-      Height = 399
+      Height = 379
       Align = alLeft
       BevelOuter = bvNone
-      Color = clWhite
+      Color = clMenu
       ParentBackground = False
       TabOrder = 2
-      ExplicitLeft = 232
-      ExplicitTop = 224
-      ExplicitHeight = 41
+      Visible = False
+      ExplicitHeight = 399
+      object SpeedButtonRegistrationStatus: TSpeedButton
+        Left = 0
+        Top = 330
+        Width = 185
+        Height = 30
+        Cursor = crHandPoint
+        Margins.Left = 0
+        Margins.Top = 0
+        Margins.Right = 0
+        Margins.Bottom = 0
+        Align = alTop
+        Caption = 'Registration Status'
+        Flat = True
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = 'Segoe UI'
+        Font.Style = []
+        ParentFont = False
+        ExplicitTop = 8
+      end
+      object SpeedButtonMonthlyIncome: TSpeedButton
+        Left = 0
+        Top = 300
+        Width = 185
+        Height = 30
+        Cursor = crHandPoint
+        Margins.Left = 0
+        Margins.Top = 0
+        Margins.Right = 0
+        Margins.Bottom = 0
+        Align = alTop
+        Caption = 'Monthly Income'
+        Flat = True
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = 'Segoe UI'
+        Font.Style = []
+        ParentFont = False
+        ExplicitTop = 8
+      end
+      object SpeedButtonMedicalInsurance: TSpeedButton
+        Left = 0
+        Top = 270
+        Width = 185
+        Height = 30
+        Cursor = crHandPoint
+        Margins.Left = 0
+        Margins.Top = 0
+        Margins.Right = 0
+        Margins.Bottom = 0
+        Align = alTop
+        Caption = 'Medical Insurance'
+        Flat = True
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = 'Segoe UI'
+        Font.Style = []
+        ParentFont = False
+        ExplicitTop = 8
+      end
+      object SpeedButtonMaritalStatus: TSpeedButton
+        Left = 0
+        Top = 240
+        Width = 185
+        Height = 30
+        Cursor = crHandPoint
+        Margins.Left = 0
+        Margins.Top = 0
+        Margins.Right = 0
+        Margins.Bottom = 0
+        Align = alTop
+        Caption = 'Marital Status'
+        Flat = True
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = 'Segoe UI'
+        Font.Style = []
+        ParentFont = False
+        ExplicitTop = 8
+      end
+      object SpeedButtonJobOccupation: TSpeedButton
+        Left = 0
+        Top = 210
+        Width = 185
+        Height = 30
+        Cursor = crHandPoint
+        Margins.Left = 0
+        Margins.Top = 0
+        Margins.Right = 0
+        Margins.Bottom = 0
+        Align = alTop
+        Caption = 'Job Occupation'
+        Flat = True
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = 'Segoe UI'
+        Font.Style = []
+        ParentFont = False
+        ExplicitTop = 8
+      end
+      object SpeedButtonGenderIdentity: TSpeedButton
+        Left = 0
+        Top = 180
+        Width = 185
+        Height = 30
+        Cursor = crHandPoint
+        Margins.Left = 0
+        Margins.Top = 0
+        Margins.Right = 0
+        Margins.Bottom = 0
+        Align = alTop
+        Caption = 'Gender Identity'
+        Flat = True
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = 'Segoe UI'
+        Font.Style = []
+        ParentFont = False
+        ExplicitTop = 8
+      end
+      object SpeedButtonGenderExpression: TSpeedButton
+        Left = 0
+        Top = 150
+        Width = 185
+        Height = 30
+        Cursor = crHandPoint
+        Margins.Left = 0
+        Margins.Top = 0
+        Margins.Right = 0
+        Margins.Bottom = 0
+        Align = alTop
+        Caption = 'Gender Expression'
+        Flat = True
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = 'Segoe UI'
+        Font.Style = []
+        ParentFont = False
+        ExplicitTop = 8
+      end
+      object SpeedButtonEthnicGroup: TSpeedButton
+        Left = 0
+        Top = 120
+        Width = 185
+        Height = 30
+        Cursor = crHandPoint
+        Margins.Left = 0
+        Margins.Top = 0
+        Margins.Right = 0
+        Margins.Bottom = 0
+        Align = alTop
+        Caption = 'Ethnic Group'
+        Flat = True
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = 'Segoe UI'
+        Font.Style = []
+        ParentFont = False
+        ExplicitTop = 8
+      end
+      object SpeedButtonDisabilityPerson: TSpeedButton
+        Left = 0
+        Top = 90
+        Width = 185
+        Height = 30
+        Cursor = crHandPoint
+        Margins.Left = 0
+        Margins.Top = 0
+        Margins.Right = 0
+        Margins.Bottom = 0
+        Align = alTop
+        Caption = 'Disability Person'
+        Flat = True
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = 'Segoe UI'
+        Font.Style = []
+        ParentFont = False
+        ExplicitTop = 8
+      end
+      object SpeedButtonBloodType: TSpeedButton
+        Left = 0
+        Top = 60
+        Width = 185
+        Height = 30
+        Cursor = crHandPoint
+        Margins.Left = 0
+        Margins.Top = 0
+        Margins.Right = 0
+        Margins.Bottom = 0
+        Align = alTop
+        Caption = 'Blood Type'
+        Flat = True
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = 'Segoe UI'
+        Font.Style = []
+        ParentFont = False
+        ExplicitTop = 8
+      end
+      object SpeedButtonBiologicalSex: TSpeedButton
+        Left = 0
+        Top = 30
+        Width = 185
+        Height = 30
+        Cursor = crHandPoint
+        Margins.Left = 0
+        Margins.Top = 0
+        Margins.Right = 0
+        Margins.Bottom = 0
+        Align = alTop
+        Caption = 'Biological Sex'
+        Flat = True
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = 'Segoe UI'
+        Font.Style = []
+        ParentFont = False
+        ExplicitTop = 8
+      end
+      object SpeedButtonAcademicDegree: TSpeedButton
+        Left = 0
+        Top = 0
+        Width = 185
+        Height = 30
+        Cursor = crHandPoint
+        Margins.Left = 0
+        Margins.Top = 0
+        Margins.Right = 0
+        Margins.Bottom = 0
+        Align = alTop
+        Caption = 'Academic Degree'
+        Flat = True
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = 'Segoe UI'
+        Font.Style = []
+        ParentFont = False
+        ExplicitTop = 8
+      end
+    end
+    object PanelFooter: TPanel
+      Left = 0
+      Top = 460
+      Width = 640
+      Height = 20
+      Align = alBottom
+      BevelOuter = bvNone
+      ParentBackground = False
+      TabOrder = 3
+      ExplicitTop = 439
+      object LabelAEpsychology: TLabel
+        AlignWithMargins = True
+        Left = 497
+        Top = 3
+        Width = 140
+        Height = 14
+        Align = alRight
+        Alignment = taCenter
+        Caption = '@epsychology 2025-2025  '
+        Color = clSilver
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clGrayText
+        Font.Height = -12
+        Font.Name = 'Segoe UI'
+        Font.Style = []
+        ParentColor = False
+        ParentFont = False
+        ExplicitLeft = 500
+        ExplicitHeight = 15
+      end
+    end
+    object PanelSideMenu2: TPanel
+      Left = 185
+      Top = 81
+      Width = 185
+      Height = 379
+      Align = alLeft
+      BevelOuter = bvNone
+      Color = clMenu
+      ParentBackground = False
+      TabOrder = 4
+      Visible = False
+      object SpeedButtonCountryGeographic: TSpeedButton
+        Left = 0
+        Top = 120
+        Width = 185
+        Height = 30
+        Cursor = crHandPoint
+        Margins.Left = 0
+        Margins.Top = 0
+        Margins.Right = 0
+        Margins.Bottom = 0
+        Align = alTop
+        Caption = 'Country Geographic'
+        Flat = True
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = 'Segoe UI'
+        Font.Style = []
+        ParentFont = False
+        ExplicitTop = 8
+      end
+      object SpeedButtonStateGeographic: TSpeedButton
+        Left = 0
+        Top = 90
+        Width = 185
+        Height = 30
+        Cursor = crHandPoint
+        Margins.Left = 0
+        Margins.Top = 0
+        Margins.Right = 0
+        Margins.Bottom = 0
+        Align = alTop
+        Caption = 'State Geographic'
+        Flat = True
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = 'Segoe UI'
+        Font.Style = []
+        ParentFont = False
+        ExplicitTop = 8
+      end
+      object SpeedButtonCityGeographic: TSpeedButton
+        Left = 0
+        Top = 60
+        Width = 185
+        Height = 30
+        Cursor = crHandPoint
+        Margins.Left = 0
+        Margins.Top = 0
+        Margins.Right = 0
+        Margins.Bottom = 0
+        Align = alTop
+        Caption = 'City Geographic'
+        Flat = True
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = 'Segoe UI'
+        Font.Style = []
+        ParentFont = False
+        ExplicitTop = 8
+      end
+      object SpeedButtonSexualOrientation: TSpeedButton
+        Left = 0
+        Top = 30
+        Width = 185
+        Height = 30
+        Cursor = crHandPoint
+        Margins.Left = 0
+        Margins.Top = 0
+        Margins.Right = 0
+        Margins.Bottom = 0
+        Align = alTop
+        Caption = 'Sexual Orientation'
+        Flat = True
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = 'Segoe UI'
+        Font.Style = []
+        ParentFont = False
+        ExplicitTop = 8
+      end
+      object SpeedButtonReligiousAffiliation: TSpeedButton
+        Left = 0
+        Top = 0
+        Width = 185
+        Height = 30
+        Cursor = crHandPoint
+        Margins.Left = 0
+        Margins.Top = 0
+        Margins.Right = 0
+        Margins.Bottom = 0
+        Align = alTop
+        Caption = 'Religious Affiliation'
+        Flat = True
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = 'Segoe UI'
+        Font.Style = []
+        ParentFont = False
+        ExplicitLeft = 46
+        ExplicitTop = 3
+      end
     end
   end
 end
