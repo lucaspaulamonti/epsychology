@@ -5,7 +5,7 @@
         <FrameworkType>VCL</FrameworkType>
         <Base>True</Base>
         <Config Condition="'$(Config)'==''">Debug</Config>
-        <Platform Condition="'$(Platform)'==''">Win32</Platform>
+        <Platform Condition="'$(Platform)'==''">Win64</Platform>
         <ProjectName Condition="'$(ProjectName)'==''">epsychology</ProjectName>
         <TargetedPlatforms>3</TargetedPlatforms>
         <AppType>Application</AppType>
@@ -125,6 +125,112 @@
         </DelphiCompile>
         <DCCReference Include="Main\UnitMain.pas">
             <Form>FormMain</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="Cadastre\UnitIndividual.pas">
+            <Form>FormIndividual</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="Cadastre\UnitLegalEntity.pas">
+            <Form>FormLegalEntity</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="Cadastre\Customer\UnitIndividualCustomer.pas">
+            <Form>FormIndividualCustomer</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="Cadastre\Customer\UnitLegalEntityCustomer.pas">
+            <Form>FormLegalEntityCustomer</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="Cadastre\Customer\UnitCustomer.pas"/>
+        <DCCReference Include="Cadastre\Supplier\UnitSupplier.pas"/>
+        <DCCReference Include="Cadastre\Supplier\UnitIndividualSupplier.pas">
+            <Form>FormIndividualSupplier</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="Cadastre\Supplier\UnitLegalEntitySupplier.pas">
+            <Form>FormLegalEntitySupplier</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="Cadastre\Carrier\UnitCarrier.pas"/>
+        <DCCReference Include="Cadastre\Carrier\UnitIndividualCarrier.pas">
+            <Form>FormIndividualCarrier</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="Cadastre\Carrier\UnitLegalEntityCarrier.pas">
+            <Form>FormLegalEntityCarrier</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="Cadastre\Employee\UnitEmployee.pas"/>
+        <DCCReference Include="Cadastre\Employee\UnitIndividualEmployee.pas">
+            <Form>FormIndividualEmployee</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="Attribute\UnitAttribute.pas">
+            <Form>FormAttribute</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="Attribute\AcademicDegree\UnitAcademicDegree.pas">
+            <Form>FormAcademicDegree</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="Attribute\BiologicalSex\UnitBiologicalSex.pas">
+            <Form>FormBiologicalSex</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="Attribute\EthnicGroup\UnitEthnicGroup.pas">
+            <Form>FormEthnicGroup</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="Attribute\GenderExpression\UnitGenderExpression.pas">
+            <Form>FormGenderExpression</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="Attribute\GenderIdentity\UnitGenderIdentity.pas">
+            <Form>FormGenderIdentity</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="Attribute\JobOccupation\UnitJobOccupation.pas">
+            <Form>FormJobOccupation</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="Attribute\MaritalStatus\UnitMaritalStatus.pas">
+            <Form>FormMaritalStatus</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="Attribute\MedicalInsurance\UnitMedicalInsurance.pas">
+            <Form>FormMedicalInsurance</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="Attribute\MonthlyIncome\UnitMonthlyIncome.pas">
+            <Form>FormMonthlyIncome</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="Attribute\ReligiousAffiliation\UnitReligiousAffiliation.pas">
+            <Form>FormReligiousAffiliation</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="Attribute\SexualOrientation\UnitSexualOrientation.pas">
+            <Form>FormSexualOrientation</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="User\UnitUser.pas">
+            <Form>FormUser</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="Agenda\UnitAgenda.pas">
+            <Form>FormAgenda</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="Configuration\TimeZone\UnitTimeZone.pas"/>
+        <DCCReference Include="Configuration\DataModule\UnitDataModule.pas">
+            <Form>DataModuleMain</Form>
+            <FormType>dfm</FormType>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="Company\UnitCompany.pas">
+            <Form>FormCompany</Form>
             <FormType>dfm</FormType>
         </DCCReference>
         <BuildConfiguration Include="Base">
